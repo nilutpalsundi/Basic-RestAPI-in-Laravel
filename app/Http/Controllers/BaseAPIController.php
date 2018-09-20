@@ -14,7 +14,6 @@ class BaseAPIController extends Controller
             'data'    => $result,
             'message' => $message,  
         ];
-        //return 'hello';
         return response()->json($response, 200);
     }
 
